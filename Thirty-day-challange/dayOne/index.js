@@ -1,16 +1,3 @@
-// Welcome to 30DaysofJavaScript
-
-/*
-Comments can make code readable,
-easy to reuse,
-and informative
-*/
-
-let cat = "Oreo";
-let computerAge = 10;
-let computerWorking = true;
-let time;
-let sleep = null;
 let firstName = 'Asabeneh' // first name of a person
 let lastName = 'Yetayeh' // last name of a person
 let country = 'Finland' // country
@@ -27,9 +14,3 @@ console.log('Welcome', 'to', 30, 'Days', 'Of', 'JavaScript')
 console.log(firstName, lastName, country, city, age, isMarried)
 console.log(gravity, boilingPoint, PI)
 console.log(name, job, live)
-console.log(typeof cat);
-console.log(typeof computerAge);
-console.log(typeof computerWorking);
-console.log(typeof time);
-console.log(typeof sleep);
-

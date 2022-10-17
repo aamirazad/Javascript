@@ -1,3 +1,10 @@
+l// Welcome to 30DaysofJavaScript
+
+/*
+Comments can make code readable,
+easy to reuse,
+and informative
+*/
 let cat = "Oreo";
 let computerAge = 10;
 let computerWorking = true;
