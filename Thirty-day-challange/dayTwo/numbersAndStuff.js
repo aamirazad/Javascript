@@ -58,3 +58,41 @@ console.log(personInfoTwo)
 console.log(personInfoThree)
 
 console.log(`${a} is greater than ${b}: ${a > b}`)
+
+let js = "JavaScript"
+console.log(js.length)
+console.log(firstName + space + firstName.length)
+
+let string = "JavaScript"
+let firstLetter = string[0]
+console.log(firstLetter)
+
+let secondLetter = string[1]
+let thirdLetter = string[2]
+let lastLetter = string[9]
+console.log(lastLetter)
+
+let lastIndex = string.length -1
+console.log(string[lastIndex])
+
+console.log(string.toUpperCase())
+console.log(firstName.toUpperCase())
+console.log(firstName.toLowerCase())
+
+console.log(string.substr(4,6))
+console.log(country.substr(3,4))
+
+console.log(string.substring(0,4))
+
+let projectName = "30 Days of JavaScript"
+
+console.log(projectName.split())
+console.log(projectName.split(' '))
+
+console.log(country.includes('fin'))
+console.log(country.includes("Fin"))
+console.log(country.includes("land"))
+console.log(country.includes("Land"))
+
+console.log(projectName.replace('JavaScript', 'Python'))
+console.log(country.replace('Fin', 'Noman'))
