@@ -1,0 +1,31 @@
+let title = "30 Days Of JavaScript"
+console.log(title)
+console.log(title.length)
+console.log(title.toUpperCase())
+console.log(title.toLowerCase())
+console.log(title.substr(0,6))
+console.log(title.substr(3,22))
+console.log(title.includes('Script'))
+console.log(title.split())
+console.log(title.split( ))
+let companys = 'Facebook, Google, Microsoft, Apple, IBM, Oracle, Amazon'
+console.log(companys.split(', '))
+console.log(title.replace('JavaScript', 'Python'))
+console.log(title.charAt(15))
+console.log(title.charCodeAt(11))
+console.log(title.indexOf('a'))
+console.log(title.lastIndexOf('a'))
+let makesSense = "You cannot end a sentence with because because because is a conjunction"
+console.log(makesSense.indexOf('because'))
+console.log(makesSense.lastIndexOf('because'))
+console.log(makesSense.search('because'))
+console.log(title.trim())
+console.log(title.startsWith("30 Days Of JavaScript"))
+console.log(title.endsWith("30 Days Of JavaScript"))
+console.log(title.match('a'))
+let partOne = "30 Days of"
+let partTwo = "JavaScript"
+console.log(partOne.concat(partTwo))
+console.log(title.repeat(2))
+console.log("Hello world")
+console.log(title.toUpperCase)
